@@ -1,0 +1,69 @@
+body {
+    font-family: 'sans-serif';
+    background-color: tomato;
+    color: whitesmoke;
+    margin: 0;
+}
+
+/* Cabezera de estilo de texto*/
+header{
+    background-color: tomato;
+    color: whitesmoke;
+    text-align: center;
+    /*Relleno*/
+    padding: 20px;
+}
+
+/* Enlaces de navegacion*/
+nav{
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/* Enlaces de navegacion sobre listas desordenados*/
+nav ul{
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlaces de navegacion de declaracion de lista*/
+nav li{
+    display: inline;
+    margin-right: 25 px;
+}
+
+/*Enlace a otras paginas de internet*/
+nav a{
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#contenido {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    /*Sombra difuminada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article{
+    margin-bottom: auto;
+}
+
+h2{
+    color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
