@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La primer pagina web de Jose Eduardo Ceballos Contreras</title>
+    <title>La pagina web de Jose Eduardo</title>
+    <!---Poner enlaces de red de distribución de contenido "Copyright"-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!--Titulo de la pagina-->
-    <header>
-        <h1>Primera pagina web</h1>
-    </header>
+    <div class="container">
+        <header class="mt-6">
+            <h1 class="text-center">La primera pagina web de Jose Eduardo</h1>
+        </header>
 
-    <!--Enlaces de navegación-->
-    <nav>
-        <!--Listas desordenados-->
-        <ul>
-            <!--li (declaracion de lista) & a (enlace a otras paginas de internet) de la-->
-            <li><a href="">Inicio</a></li>
-            <li><a href="">¿Quién soy?</a></li>
-            <li><a href="">Referencias</a></li>
-        </ul>
-    </nav>
+        <!--Enlaces de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a>></li>
+                <li class="nav-item"><a class="nav-link" href="#">¿Quién soy?</a>></li>
+                <li class="nav-item"><a class="nav-link" href="#">Referencias</a>></li>
+            </ul>
+        </nav>
+        <!--Seccion principal-->
+        <section class="mt-4">
+            <!--Parte 1 del articulo-->
+            <article class="mb-4">
+                <h2>¿Porqué Big Time Rush es la mejor serie de Nickledeon?</h2>
+                <p> Big Time Rush se ha convertido una de las series mas innovadoras dentro del catalogo de series juveniles. La serie tiene capitulos innovadores así como gags y grandes segmentos musicales.</p>
+            </article>
 
-    <section>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
+            <article class="mb-4">
+                <h3>Top 5 mejores episodios de BTR</h3>
+                <p>5 Any kind of guy - 1020 votos</p>
+                <p>4 Famous - 1528 votos</p>
+                <p>3 No Idea - 2189 votos</p>
+                <p>2 WorldWide - 2384 votos</p>
+                <p>1 Boyfriend - 2443 votos</p>
+            </article>
+        </section>
+    </div>
 
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
-    </section>
-    
-    <!--Debajo de la pagian de seccion-->
-    <footer>
-        <p>&copy; Este mensaje esta visto desde abajo y eres lo mejor de toda la vida.</p>
+<!--Debajo de la pagian de seccion-->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; Este mensaje esta visto desde abajo y eres lo mejor de toda la vida.</p>
+        </div>
     </footer>
 </body>
 </html>
